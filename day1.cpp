@@ -1,13 +1,14 @@
 #include <iostream>
 
-
-int sumInt(int a, int b) {
-	return a + b;
-}
-
-int main() {
-
-	std::cout << sumInt(2, 5) << std::endl;
-
-	return 0;
-}
+//int main() {
+//
+//	//int a{ 99 };
+//
+//	//std::cout << a << " Enter a value" << '\n';
+//	//std::cin >> a;
+//	int a {};
+//
+//	std::cout << sizeof(double);
+//
+//	return 0;
+//}
