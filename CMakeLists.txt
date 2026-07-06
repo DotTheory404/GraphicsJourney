@@ -10,4 +10,5 @@ add_compile_options(/Zc:__cplusplus)
 add_executable(LearnCpp 
     day1.cpp 
     day2.cpp
+    day3.cpp
 )
