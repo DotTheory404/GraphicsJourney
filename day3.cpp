@@ -1,5 +1,8 @@
 #include <iostream>
 //#include <typeinfo>
+#include ".h"
+
+int squareValue(int x);
 
 #define MY_AGE 24
 #define SAY_YES NULL
@@ -13,8 +16,6 @@ int getUserInput() {
 	return x;
 
 }
-
-int squareValue(int x);
 
 
 int main() {
@@ -39,6 +40,10 @@ int main() {
 
 	#ifdef SAY_NO
 		std::cout << "NO" << '\n';
+	#endif
+
+	#if 0
+		std::cout << "This never be seen" << '\n';
 	#endif
 
 	return 0;
