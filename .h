@@ -1,2 +1,0 @@
-
-int squareValue(int x);

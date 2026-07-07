@@ -12,4 +12,5 @@ add_executable(LearnCpp
     day2.cpp
     day3.cpp
     square.cpp
+    day4.cpp
 )
