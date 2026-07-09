@@ -13,4 +13,6 @@ add_executable(LearnCpp
     day3.cpp
     square.cpp
     day4.cpp
- "dataType.cpp")
+    day5DataType.cpp
+    task4Chap.cpp
+)
