@@ -56,6 +56,9 @@ int main() {
 }
 */
 
+
+/*
+* task 2
 double inputHeight() {
 
 	double h{};
@@ -69,9 +72,9 @@ void dist(double h, double g, int s) {
 
 	double result{ h - ((g * std::pow(s, 2) / 2)) };
 	if (result >= 0)
-		std::cout << "At " << s << "seconds, the ball is at height: " << result << '\n';
+		std::cout << "At " << s << " seconds, the ball is at height: " << result << '\n';
 	else
-		std::cout << "At " << s << "seconds, the ball is on the ground." << '\n';
+		std::cout << "At " << s << " seconds, the ball is on the ground." << '\n';
 }
 
 
@@ -89,3 +92,4 @@ int main() {
 
 	return 0;
 }
+*/
