@@ -17,4 +17,5 @@ add_executable(LearnCpp
     task4Chap.cpp
     day6.cpp
     chap5Task.cpp
+    day7.cpp
 )

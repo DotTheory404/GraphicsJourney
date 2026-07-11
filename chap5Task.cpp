@@ -33,15 +33,15 @@ void result(const std::string name1, int age1, const std::string name2, int age2
 }
 
 
-int main() {
-
-	const std::string name1{ inputName() };
-	const std::string name2{ inputName() };
-
-	const int age1{ inputAge() };
-	const int age2{ inputAge() };
-
-	result(name1, age1, name2, age2);
-
-	return 0;
-}
+//int main() {
+//
+//	const std::string name1{ inputName() };
+//	const std::string name2{ inputName() };
+//
+//	const int age1{ inputAge() };
+//	const int age2{ inputAge() };
+//
+//	result(name1, age1, name2, age2);
+//
+//	return 0;
+//}
