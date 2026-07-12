@@ -18,4 +18,5 @@ add_executable(LearnCpp
     day6.cpp
     chap5Task.cpp
     day7.cpp
+    day8BitWiseOpp.cpp
 )
