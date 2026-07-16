@@ -20,4 +20,8 @@ add_executable(LearnCpp
     day7.cpp
     day8BitWiseOpp.cpp
     day9_10.cpp
-)
+    day11_12.cpp 
+    Random.h 
+    chap8/task1.cpp 
+    chap8/task2.cpp 
+    chap8/task3.cpp)
