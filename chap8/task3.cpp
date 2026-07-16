@@ -41,11 +41,11 @@ bool game() {
     return false; 
 }
 
-int main() {
-
-	do {
-		game();
-	} while ( playAgain() );
-	
-	return 0;
-}
+//int main() {
+//
+//	do {
+//		game();
+//	} while ( playAgain() );
+//	
+//	return 0;
+//}

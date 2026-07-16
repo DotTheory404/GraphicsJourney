@@ -24,4 +24,6 @@ add_executable(LearnCpp
     Random.h 
     chap8/task1.cpp 
     chap8/task2.cpp 
-    chap8/task3.cpp)
+    chap8/task3.cpp 
+    day13.cpp
+)
