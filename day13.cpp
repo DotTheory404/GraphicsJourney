@@ -12,16 +12,14 @@ namespace Handel {
 			int guess{};
 			std::cin >> guess;
 
-			if (!std::cin) {
-				std::cin.clear();
-				std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-				std::cout << "Invalis output\n";
-			}
+			bool success{ std::cin };
+			std::cin.clear(); 
+			std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); 
 
-			else if (guess > max || guess < min)
-				std::cout << "Out of bounds. Try again: ";
-			else
-				return guess;
+			if (!success || guess < min || guess > max)
+				continue;
+
+			return guess;
 		}
 	}
 
@@ -76,18 +74,18 @@ namespace Handel {
 
 }
 
-int main()
-{
-	constexpr int guesses{ 7 }; // the user has this many guesses
-	constexpr int min{ 1 };
-	constexpr int max{ 100 };
-
-	do
-	{
-		Handel::playHiLo(guesses, min, max);
-	} while (Handel::playAgain());
-
-	std::cout << "Thank you for playing.\n";
-
-	return 0;
-}
+//int main()
+//{
+//	constexpr int guesses{ 7 }; // the user has this many guesses
+//	constexpr int min{ 1 };
+//	constexpr int max{ 100 };
+//
+//	do
+//	{
+//		Handel::playHiLo(guesses, min, max);
+//	} while (Handel::playAgain());
+//
+//	std::cout << "Thank you for playing.\n";
+//
+//	return 0;
+//}
