@@ -40,26 +40,26 @@ namespace day14{
 
 }
 
-int main() {
-
-	//std::cout << day14::printData() << '\n';
-	//std::cout << day14::add<>(2, 4);
-
-	//static_assert(day14::factorial<0>() == 1);
-	//static_assert(day14::factorial<3>() == 6);
-	//static_assert(day14::factorial<5>() == 120);
-
-	//day14::factorial<-3>(); // should fail to compile
-
-	//std::cout << day14::add(2, 3) << '\n';
-	//std::cout << day14::add(1.2, 3.4) << '\n';
-
-	//std::cout << day14::mult(2, 3) << '\n';
-	//std::cout << day14::mult(1.2, 3) << '\n';
-
-	std::cout << day14::sub(3, 2) << '\n';
-	std::cout << day14::sub(3.5, 2) << '\n';
-	std::cout << day14::sub(4, 1.5) << '\n';
-
-	return 0;
-}
+//int main() {
+//
+//	//std::cout << day14::printData() << '\n';
+//	//std::cout << day14::add<>(2, 4);
+//
+//	//static_assert(day14::factorial<0>() == 1);
+//	//static_assert(day14::factorial<3>() == 6);
+//	//static_assert(day14::factorial<5>() == 120);
+//
+//	//day14::factorial<-3>(); // should fail to compile
+//
+//	//std::cout << day14::add(2, 3) << '\n';
+//	//std::cout << day14::add(1.2, 3.4) << '\n';
+//
+//	//std::cout << day14::mult(2, 3) << '\n';
+//	//std::cout << day14::mult(1.2, 3) << '\n';
+//
+//	std::cout << day14::sub(3, 2) << '\n';
+//	std::cout << day14::sub(3.5, 2) << '\n';
+//	std::cout << day14::sub(4, 1.5) << '\n';
+//
+//	return 0;
+//}
